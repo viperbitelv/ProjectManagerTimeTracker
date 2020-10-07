@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WorkEntryEdit">
+
+    <EditText
+        android:id="@+id/textEditWorkPlace"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/labelWorkPlace"
+        app:layout_constraintTop_toBottomOf="@+id/textEditWorkFrom" />
+
+    <EditText
+        android:id="@+id/textEditWorkDone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_marginTop="32dp"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/labelWorkDone"
+        app:layout_constraintTop_toBottomOf="@+id/textEditWorkPlace" />
+
+    <Button
+        android:id="@+id/detailsSave"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        android:backgroundTint="@color/colorYellow"
+        android:text="@string/btn_save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/labelWorkPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="21dp"
+        android:text="@string/labelWorkPlace"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textEditWorkPlace"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textEditWorkFrom" />
+
+    <TextView
+        android:id="@+id/labelWorkDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="21dp"
+        android:text="@string/labelWorkDone"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textEditWorkDone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textEditWorkDone" />
+
+    <EditText
+        android:id="@+id/textEditDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="date"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/button_ToEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:contextClickable="false"
+        app:layout_constraintStart_toEndOf="@+id/labelShare"
+        app:layout_constraintTop_toBottomOf="@+id/textEditWorkDone"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <EditText
+        android:id="@+id/textEditWorkFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="time"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textEditDate" />
+
+    <EditText
+        android:id="@+id/textEditWorkTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="time"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/textEditWorkFrom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textEditWorkFrom"
+        app:layout_constraintTop_toTopOf="@+id/textEditWorkFrom" />
+
+    <TextView
+        android:id="@+id/labelShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/labelShare"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button_ToEmail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button_ToEmail" />
+
+    <Button
+        android:id="@+id/buttonShareOther"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="@string/btnShareOther"
+        app:layout_constraintBottom_toBottomOf="@+id/button_ToEmail"
+        app:layout_constraintStart_toEndOf="@+id/button_ToEmail"
+        app:layout_constraintTop_toTopOf="@+id/button_ToEmail" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

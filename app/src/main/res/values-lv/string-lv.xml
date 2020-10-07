@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Projekta vadītāja laika uzskaite</string>
+    <string name="app_name_short">PMTT</string>
+    <string name="button_add">Pievienot</string>
+    <string name="button_close">Aizvērt</string>
+    <string name="labelWorkDate">Datums</string>
+    <string name="labelWorkPlace">Darba vieta</string>
+    <string name="labelWorkDone">Veiktais darbs</string>
+    <string name="btn_save">Saglabāt</string>
+    <string name="email_subject">Piezīme no "PMTT"</string>
+    <string name="item_addentry">Pievienot</string>
+    <string name="item_close">Aizvērt</string>
+    <string name="item_about">Par mob.app.</string>
+    <string name="text_about_app">Projektu vadītāja laika uzskaites programma ir bezmaksas rīks, lai palīdzētu projektu vadītājam sekot līdzi veiktajam darba apjomam pie katra darba devēja.</string>
+    <string name="edit_work_entry">Labot darba ierakstu</string>
+    <string name="labelWorkTimeFrom">No:</string>
+    <string name="labelWorkTimeTo">Līdz:</string>
+    <string name="labelShare">Dalīties: </string>
+    <string name="toast_fill_all_fields">Lūgums aizpildīt visus laukus!</string>
+    <string name="item_employers">Darba devēji</string>
+    <string name="labelAddNewEmployer">Pievienot jaunu darba devēju</string>
+
+    <string name="msg_wishToLogOut">Aizvērt aplikāciju?</string>
+    <string name="msg_close">Aizvērt</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Atcelt</string>
+    <string name="btn_yes">Jā</string>
+
+    <string name="msg_titleDelete">Dzēšanas apstiprinājums</string>
+    <string name="msg_messageDelete">Vai tiešām vēlaties dzēst šo ierakstu?</string>
+    <string name="btnShareOther">Citur...</string>
+    <string name="msg_newEmployerEntryAdded">Jauns ieraksts izveidots</string>
+
+</resources>

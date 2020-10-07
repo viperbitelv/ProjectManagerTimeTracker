@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Project Manager Time Tracker</string>
+    <string name="app_name_short">PMTT</string>
+    <string name="button_add">Add</string>
+    <string name="button_close">Close</string>
+    <string name="labelWorkDate">Date</string>
+    <string name="labelWorkPlace">Employer</string>
+    <string name="labelWorkDone">Work done</string>
+    <string name="btn_save">Save</string>
+    <string name="email_subject">Note from "PMTT"</string>
+    <string name="item_addentry">Add</string>
+    <string name="item_close">Close</string>
+    <string name="item_about">About</string>
+    <string name="text_about_app">Project Managemnt Time Tracker is a free to use mobile application to help project managers to keep the log of time spent for each project or at each employer.</string>
+    <string name="edit_work_entry">Edit work entry</string>
+    <string name="labelWorkTimeFrom">From</string>
+    <string name="labelWorkTimeTo">To</string>
+    <string name="labelShare">Share: </string>
+    <string name="toast_fill_all_fields">Please fill in all fields!!</string>
+    <string name="item_employers">Employers</string>
+    <string name="labelAddNewEmployer">Add new employer</string>
+    <string name="msg_wishToLogOut">Close the application?</string>
+    <string name="msg_close">Close</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_yes">Yes</string>
+    <string name="msg_titleDelete">Delete confirmation</string>
+    <string name="msg_messageDelete">Are you sure you want to delete the this entry?</string>
+    <string name="btnShareOther">Other…</string>
+
+    <string name="copyrights" translatable="false">(c) Ralfs M, 2020.</string>
+    <string name="msg_newEmployerEntryAdded">New Employer entry created</string>
+
+</resources>
