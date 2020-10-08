@@ -10,7 +10,7 @@
     <string name="btn_save">Saglabāt</string>
     <string name="email_subject">Piezīme no "PMTT"</string>
     <string name="item_addentry">Pievienot</string>
-    <string name="item_close">Aizvērt</string>
+    <string name="item_close">Iziet</string>
     <string name="item_about">Par mob.app.</string>
     <string name="text_about_app">Projektu vadītāja laika uzskaites programma ir bezmaksas rīks, lai palīdzētu projektu vadītājam sekot līdzi veiktajam darba apjomam pie katra darba devēja.</string>
     <string name="edit_work_entry">Labot darba ierakstu</string>

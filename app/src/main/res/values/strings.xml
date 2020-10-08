@@ -9,7 +9,7 @@
     <string name="btn_save">Save</string>
     <string name="email_subject">Note from "PMTT"</string>
     <string name="item_addentry">Add</string>
-    <string name="item_close">Close</string>
+    <string name="item_close">Exit</string>
     <string name="item_about">About</string>
     <string name="text_about_app">Project Managemnt Time Tracker is a free to use mobile application to help project managers to keep the log of time spent for each project or at each employer.</string>
     <string name="edit_work_entry">Edit work entry</string>
